@@ -4,11 +4,7 @@
     <q-input
       filled
       v-model="name"
-<<<<<<< HEAD
       label="Your name *"
-=======
-      label="ชือ"
->>>>>>> thai-lang
       hint="Name and surname"
       lazy-rules
       :rules="[val => (val && val.length > 0) || 'Please type something']"
@@ -18,11 +14,7 @@
       filled
       type="number"
       v-model.number="age"
-<<<<<<< HEAD
       label="Your age *"
-=======
-      label="อายุ"
->>>>>>> thai-lang
       lazy-rules
       :rules="[
         val => (val !== null && val !== '') || 'Please type your age',
@@ -30,11 +22,7 @@
       ]"
     />
 
-<<<<<<< HEAD
     <q-toggle v-model="accept" label="I accept the license and terms" />
-=======
-    <q-toggle v-model="accept" label="ฉันยอมรับใบอนุญาตและข้อกำหนด" />
->>>>>>> thai-lang
 
     <div>
       <q-btn label="Submit" type="submit" color="primary" />
