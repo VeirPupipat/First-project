@@ -1,13 +1,23 @@
 <template>
+<<<<<<< HEAD
   <div class="q-pa-md">
   <div class="q-gutter-y-md column" style="max-width: 300px">
     <q-input color="purple-12" v-model="fjfjfjfj" label="fhfhfh">
+=======
+ <div class="q-pa-md">
+  <div class="q-gutter-y-md column" style="max-width: 300px">
+    <q-input color="purple-12" v-model="text" label="Label">
+>>>>>>> main
       <template v-slot:prepend>
         <q-icon name="event" />
       </template>
     </q-input>
 
+<<<<<<< HEAD
     <q-input color="rfufhfh" filled v-model="text" label="Label">
+=======
+    <q-input color="teal" filled v-model="text" label="Label">
+>>>>>>> main
       <template v-slot:prepend>
         <q-icon name="event" />
       </template>
@@ -67,7 +77,11 @@
 </div>
 </template>
 
+<<<<<<< HEAD
 <script>
+=======
+<script setup>
+>>>>>>> main
 import { ref } from 'vue'
 
 const text = ref('')
